@@ -1,0 +1,14 @@
+p {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 30px 10px 20px 40px;
+    background-color: lightblue;
+}
+
+group {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
