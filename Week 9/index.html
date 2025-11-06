@@ -1,0 +1,48 @@
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Form input name, email, phone-->
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+    <!--select gender-->
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    <!--courses have attended as checkboxes-->
+    <label>Courses Attend:</label><br>
+    <input type="checkbox" id="course1" name="courses" value="course1">
+    <label for="course1">Course 1</label><br>
+    <input type="checkbox" id="course2" name="courses" value="course2">
+    <label for="course2">Course 2</label><br>
+    <input type="checkbox" id="course3" name="courses" value="course3">
+    <label for="course3">Course 3</label><br><br>
+
+    <input type="submit" value="Submit">
+
+<!--radio boxes example-->
+<label>Preferred Contact Method:</label><br>
+<input type="radio" id="contact_email" name="contact_method" value="email">
+<label for="contact_email">Email</label><br>
+<input type="radio" id="contact_phone" name="contact_method" value="phone">
+<label for="contact_phone">Phone</label><br><br>
+
+<!--file submit-->
+<label for="resume">Upload Resume:</label>
+<input type="file" id="resume" name="resume"><br><br>
+
+<input type="submit" value="Submit">
+<!--reset button-->
+<input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
