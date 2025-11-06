@@ -44,3 +44,49 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Simple Contact Form */
+#contact-form {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#contact-form h2 {
+  text-align: center;
+  color: #007BFF;
+}
+
+#contact-form p {
+  text-align: center;
+  color: #333;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+}
