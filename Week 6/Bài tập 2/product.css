@@ -2,11 +2,11 @@
   display: none;
 }
 
-.Product img {
+.Product img { #kích thước ảnh vuông 150x150px.
   width: 150px;
   height: 150px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px #aaa;
+  border-radius: 20px;  #bo tròn 4 góc, mềm mại hơn.
+  box-shadow: 5px 5px 10px #aaa; #tạo hiệu ứng bóng đổ xám, làm ảnh nổi lên.
 }
 
 .ProductName {

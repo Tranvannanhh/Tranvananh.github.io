@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Underline Link</title>
+<style>
+  a {
+    position: relative;
+    text-decoration: none;
+    color: #0078ff;
+    font-size: 20px;
+  }
+
+  /* Tạo gạch chân bằng pseudo-element */
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #0078ff;
+    transition: width 0.3s ease;
+  }
+
+  /* Khi hover, gạch chân chạy từ trái sang phải */
+  a:hover::after {
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+  <a href="#">Hover me</a>
+</body>
+</html>
